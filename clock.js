@@ -20,8 +20,8 @@ function digiclock(){
     if(secs<10){
         secs="0"+secs;
     }
-    let tym=hrs+":"+mins+":"+secs+" "+timezone;
-    console.log(tym);
+    let time=hrs+":"+mins+":"+secs+" "+timezone;
+    console.log(time);
     let t=setTimeout(function(){digiclock()},3000);
 }
 digiclock();
